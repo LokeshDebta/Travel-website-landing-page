@@ -1,0 +1,101 @@
+*
+{
+    /* background-color: aqua; */
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+ul{
+    list-style: none;
+}
+
+.active
+{   font-weight: bold;
+    text-decoration: none;
+    color:#fc036b 
+    
+}
+.navbar
+{
+    display: flex;
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    justify-content: space-between;
+    padding: 20px;
+    /* color:rgba(4, 4, 4, 0.844); */
+
+
+}
+
+.nav-links 
+{
+    display: flex;
+    align-item: center;
+}
+
+.nav-links li {
+    margin: 0 30px;
+}
+
+
+header
+{
+    width: 100vw;
+    height: 100vh;
+    background-image:url('/nature.jpg') ;
+    background-position: bottom;
+    background-size: cover;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+a{
+    text-decoration: none;
+}
+
+.header-content {
+    margin-bottom: 150px;
+    color:gray;
+    text-align: center;
+}
+
+.header-content h2{
+    font-size: 4vmin;
+
+}
+.line
+{
+    width: 350px;
+    height: 4px;
+    /* background-color: #fc036b; */
+    margin: 10px auto;
+    border-radius: 5px;
+}
+
+.header-content h1 
+{
+    font-size: 7vmin;
+    margin-top: 50px;
+    margin-bottom: 30px;
+}
+.ctn {
+    padding:8px 15px;
+    background-color: red;
+    border-radius: 30px;
+    color: aliceblue;
+}
+
+@media only screen and (max-width:850px)
+{
+    .navbar {
+        padding: 0;
+    }
+}
+
+h2{
+    color: black;
+}
